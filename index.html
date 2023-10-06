@@ -35,7 +35,8 @@
             const barackImage = document.getElementById('barack-image');
             const lockImage = document.getElementById('lock-image');
             const rockImage = document.getElementById('rock-image');
-            textInput.addEventListener('input', function () {
+            const rockImage = document.getElementById('cock-image');
+                textInput.addEventListener('input', function () {
             const text = textInput.value.toLowerCase();
                 sockImage.style.display = 'none';
                 clockImage.style.display = 'none';
@@ -51,7 +52,9 @@
                 barackImage.style.display = 'none';
                 lockImage.style.display = 'none';
                 rockImage.style.display = 'none'; 
-
+                cockImage.style.display = 'none'; 
+               
+                
                 if (text === 'sock') {
                     sockImage.style.display = 'block';
                 } else if (text === 'clock') {
@@ -80,6 +83,8 @@
                     lockImage.style.display = 'block';
                 } else if (text === 'rock') {
                     rockImage.style.display = 'block';
+                } else if (text === 'cock') {
+                    rockImage.style.display = 'block';
                 }
             });
         });
@@ -91,7 +96,7 @@
    johnson
     <div id="image-container">
 
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" id="sock-image" alt="Sock Image">
+        <img src="Screenshot 2023-10-05 12.43.27 PM.png" id="sock-image" alt="Sock Image">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFcY_dtMmMk5xg7n8THzTy5AMbUFyfXLCnMotpqvqbh1fjCzTADymMKrf7qlW8SBUKQ0:www.angryasianman.com/images/angry/halloween2015_19.jpg&usqp=CAU" id="clock-image" alt="Clock Image">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApcYZjxgWoItqVK_EgJaj1JpdrMGCFQ-zD7SQO4ZKiWcXDqqE-H3xux2sGSK1nnTUkVw:https://www.shutterstock.com/image-vector/kim-jongun-nuclear-missile-cartoon-260nw-629567858.jpg&usqp=CAU" id="block-image" alt="Block Image">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" id="glock-image" alt="Glock Image">
@@ -105,6 +110,8 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApcYZjxgWoItqVK_EgJaj1JpdrMGCFQ-zD7SQO4ZKiWcXDqqE-H3xux2sGSK1nnTUkVw:https://www.shutterstock.com/image-vector/kim-jongun-nuclear-missile-cartoon-260nw-629567858.jpg&usqp=CAU" id="barack-image" alt="Barack Image">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREabvR30BJaXiYN2Azwc8fPUWJmv1nzMatw9YIxxrygA&s" id="lock-image" alt="Lock Image">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFcY_dtMmMk5xg7n8THzTy5AMbUFyfXLCnMotpqvqbh1fjCzTADymMKrf7qlW8SBUKQ0:www.angryasianman.com/images/angry/halloween2015_19.jpg&usqp=CAU" id="rock-image" alt="Rock Image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDH_hEXrIGVPDgyN3HRPH7mB38sxZIS7VvVL5iLKwJ4g&s" id="cock-image" alt="Cock Image">
+
     </div>
 </body>
 </html>
